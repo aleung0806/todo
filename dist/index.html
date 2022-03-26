@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c9c19994a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Todo</title>
+</head>
+<body>
+    <header>
+        <h1>to do...</h1>
+    </header>
+    <main>
+    <nav>
+        <div id="project-list">
+            <h3>projects</h3>
+            <button class="project-button" id="selected">default project</button>
+            <!-- <button class="project-button" id="">around the house</button>
+            <button class="project-button" id="">car and garage</button> -->
+        </div>
+        <button id="add-project-button">+ add project</button>
+    </nav>
+    <div id="project-display">
+            <h3 id="project-name">default project</h3>
+            <div id="tasks">
+                <!-- <div class="task" id="make bed">
+                    <i class="far fa-circle"></i>
+                    <h5>make bed</h5> 
+                </div>
+                <div class="task" id="do laundry">
+                    <i class="far fa-circle"></i>
+                    <h5>do laundry</h5> 
+                </div>
+                <div class="task" id="wash dishes">
+                    <i class="far fa-circle"></i>
+                    <h5>wash dishes</h5> 
+                </div> -->
+
+                <div class="task" id="unset">
+                    <i class="far fa-circle"></i>
+                        <input type="text" id="new-task" value="new task"><br><br>
+                </div>
+            </div>
+            <button id="add-task-button">+ add task</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+header {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    display: block;
+    width: 200px;
+    height: 100vh;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #40c7b8;
+}
+
+#project-list {
+    display: grid;
+}
+
+button{
+    margin: 5px;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#add-project-button {
+    background-color:coral;
+    font-weight: bold;
+}
+
+#project-list #selected{
+    font-weight: bold;
+    background-color:white;
+
+}
+
+#project-list button{
+    background-color:darkgrey;
+}
+
+#project-display{
+    height: 100vh;
+    width: calc(100vw - 200px);
+    align-items: flex-start;
+    padding: 20px;
+    background-color:lightcyan;
+
+}
+#tasks {
+    padding: 10px;
+    align-items: center;
+}
+
+.task {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    width: max-content;
+    align-items: center;
+}
+
+#add-task-button {
+    margin:auto;
+    display: block;
+    background-color:coral;
+    font-weight: bold;
+}
+
+#project-name {
+    text-align: center;
+    margin: 10px;
+}
+
+h3, h5 {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
