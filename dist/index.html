@@ -15,17 +15,18 @@
     </header>
     <main>
     <nav>
+        <h3>projects</h3>
         <div id="project-list">
-            <h3>projects</h3>
-            <button class="project-button" id="selected">default project</button>
+            <!-- <button class="project-button" id="selected">default project</button> -->
             <!-- <button class="project-button" id="">around the house</button>
             <button class="project-button" id="">car and garage</button> -->
-        </div>
+            </div>
+        <input class="form-control" type="text" id="new-project-form" placeholder="new project">
         <button id="add-project-button">+ add project</button>
     </nav>
     <div id="project-display">
-            <h3 id="project-name">default project</h3>
-            <div id="tasks">
+            <h3 id="displayed-project">default project</h3>
+            <div id="task-list">
                 <!-- <div class="task" id="make bed">
                     <i class="far fa-circle"></i>
                     <h5>make bed</h5> 
@@ -38,13 +39,11 @@
                     <i class="far fa-circle"></i>
                     <h5>wash dishes</h5> 
                 </div> -->
-
-                <div class="task" id="unset">
-                    <i class="far fa-circle"></i>
-                        <input type="text" id="new-task" value="new task"><br><br>
-                </div>
             </div>
-            <button id="add-task-button">+ add task</button>
+            <input class="form-control" type="text" id="new-task-form" placeholder="new task">
+            <button id="add-task-button" id="">+ add task</button>
+            <div id="done-list">
+            </div>
         </div>
     </main>
     <script src="index.js"></script>

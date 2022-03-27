@@ -20,7 +20,10 @@ nav {
 
 #project-list {
     display: grid;
+    margin-bottom: 50px;
 }
+
+
 
 button{
     margin: 5px;
@@ -34,14 +37,13 @@ button{
     font-weight: bold;
 }
 
-#project-list #selected{
-    font-weight: bold;
-    background-color:white;
-
+.project-button{
+    background-color:gainsboro;
 }
 
-#project-list button{
-    background-color:darkgrey;
+.project-button[value='selected']{
+    font-weight: bold;
+    background-color: white;
 }
 
 #project-display{
@@ -53,14 +55,13 @@ button{
 
 }
 #tasks {
+    margin: auto;
     padding: 10px;
     align-items: center;
 }
 
 .task {
     display: flex;
-    margin-left: auto;
-    margin-right: auto; 
     width: max-content;
     align-items: center;
 }
@@ -81,4 +82,27 @@ h3, h5 {
     display: block;
     text-align: center;
     margin: 10px;
+}
+
+.form-control {
+    width: 150px;   
+    border-style: none;
+    display: none;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#new-project-form {
+    margin-top: 10px;
+}
+
+#done-list {
+    display: block;
+}
+
+.done {
+    width: max-content;
+    text-decoration: line-through;
+    color:black;
+    display: block;
 }
